@@ -1,0 +1,11 @@
+# Configuraciones de editores (PyCharm/IntelliJ)
+.idea/
+.vscode/
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
