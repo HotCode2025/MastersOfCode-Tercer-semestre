@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra, Papel y Tijera</title>
+    <link rel="icon" href="https://i.ibb.co/CpKcbM6n/piedra-papel-tijeras.png" type="image/png">
+
+    <script>
+        //Colocamos la funcion para la variable pc dentro de script donde vamos a pasar los argumentos min y max
+        function numerosRandom(min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+
+        let min = 1;
+        let max = 3;
+        let pc = numerosRandom(min, max); 
+
+        //esto de aqui se encarga de la traduccion de datos del numero a la seleccion
+        //Declaramos una variable vacia para guardar el nombre de la eleccion
+        let pcNombre = "";
+        //evaluamos el numero que eligio la pc y segun el numero le asignamos piedra papel o tijera
+        if (pc == 1) {
+            pcNombre = "piedra";
+        } else if (pc == 2) {
+            pcNombre = "papel";
+        } else if (pc == 3) {
+            pcNombre = "tijera";
+        }
+
+        //Con parseInt tomamos el texto del prompt y lo transformamos en numero entero
+        let jugador = prompt("Elige: 1 = piedra, 2 = papel, 3 = tijera");
+
+        if(jugador == 1){
+            alert("Elegiste piedra");
+        } else if(jugador == 2){
+            alert("Elegiste papel");
+        } else if(jugador == 3){
+            alert("Elegiste tijera");
+        } else {
+            alert("Elegiste una opción inválida");
+        }
+
+        // modificamos esta parte agrupando.
+
+        if (pc == jugador){
+            alert("Empataron, El PC también eligió " + pcNombre);
+        } else if((jugador == 1 && pc == 3) || (jugador == 2 && pc == 1) || (jugador == 3 && pc == 2)){
+            alert("Ganaste El PC eligió " + pcNombre);
+        } else {
+            alert("Perdiste, la PC eligió " + pcNombre);
+        }
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>
