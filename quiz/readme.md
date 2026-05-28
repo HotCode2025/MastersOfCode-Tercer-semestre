@@ -77,7 +77,7 @@ function aleatorio(min, max){
 
 1. Selecciona cuál de las opciones es una etiqueta estática que NO cambia en HTML:
 
-   * Respuesta correcta: e
+   * Respuesta correcta: a
 
 2. ¿Qué debemos recordar cuando creamos un botón en HTML para asociarlo en JS a la hora de utilizar este botón? 
 
