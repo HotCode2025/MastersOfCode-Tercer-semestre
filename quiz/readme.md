@@ -50,7 +50,27 @@ a. Devuelve un número aleatorio entre 0 y 1 <br/>
 
 ## 20/05/2026
 * Respuestas
+1. Analizar la siguiente fórmula para obtener un número aleatorio en un rango del 1 al 3 y elige cuál es correcta:
+* La opción d es la correcta.
+```
+let max = 3
 
+let min = 1
+
+function aleatorio(min, max){
+
+    return Math.floor(Math.random() * (max - min +1) + min)
+
+}
+```
+ 
+2. Cuál es un código que se pueda utilizar para un botón Reiniciar en html:
+
+ * La opción a es la correcta: <a href="JavaScript:document.location.reload();">Reiniciar</a> 
+ 
+ 
+3. Elige cuál es el uso correcto del utf-8 en html:
+* La opción e es la correcta. Todas las respuestas
 
 ## 27/05/2026
 * Respuestas
