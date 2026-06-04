@@ -88,4 +88,20 @@ function aleatorio(min, max){
    * Respuesta correcta: e. La respuesta No esta en las opciones: La mejor práctica moderna es poner el <script> al final del .
 
 
+## 03/06/2026
+* Respuestas
+
+1. ¿Cuál es el significado de la palabra checked? 
+     
+   * Respuesta: d. Su significado es seleccionado
+
+2. En el juego de La leyenda de Aang: El Avatar ¿Para que utilizamos la función de de innerHTML?
+
+   * Respuesta: d. La utilizamos en Js para mostrar un String
+
+3. ¿Esta recomendado dentro de las buenas prácticas introducir document.getElementById('katara').checked dentro de una estructura if else y que sea la condición que gatille una elección?
+
+   * Respuesta:d. Como buenas prácticas se recomienda crear variables a las que se le asigne este código y que NO vayan a ningún condicional de esta forma.
+
+
 
