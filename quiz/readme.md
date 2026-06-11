@@ -104,4 +104,26 @@ function aleatorio(min, max){
    * Respuesta:d. Como buenas prácticas se recomienda crear variables a las que se le asigne este código y que NO vayan a ningún condicional de esta forma.
 
 
+## 10/06/2026 10-A
+* Respuestas
 
+1. ¿Cuántas veces se puede utilizar la función de nuestro juego aleatorio()?
+   * c. Se puede utilizar siempre, las veces necesarias.
+
+2. Cuando necesitamos probar nuestro código, ¿Cómo podemos ir viendo o haciendo prueba error?
+   * b. Dentro de las buenas prácticas utilizar el Quokka en VSC
+
+3. Las variables creadas en las funciones tienen la capacidad de ser utilizadas en todo el código libremente:
+   * b. De ninguna manera, esto es una locura, ya que las únicas variables que pueden hacer esto son las globales.
+
+## 10/06/2026 10-B
+* Respuestas
+
+1. ¿Qué es más aconsejable, factorizar o crear desde cero?
+   * a. Se aconseja que se factorice lo más que se pueda.
+
+2. ¿Qué significa para ti deployar?
+   * a. Mover código para una buena ejecución.
+
+3. ¿Qué representa para ti una variable global?
+   * b. Estas variables son las únicas variables que pueden ser utilizadas en cada parte del código, sin limitaciones.
