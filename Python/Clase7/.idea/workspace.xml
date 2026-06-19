@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49961692-6d0e-4a63-a8ff-ad9d89e9962a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/capa_datos_persona/persona_dao.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Clase7.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Clase7.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capas_datos_persona/conection.py" beforeDir="false" afterPath="$PROJECT_DIR$/capa_datos_persona/conexion.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capas_datos_persona/logger_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/capa_datos_persona/logger_base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capas_datos_persona/persona.py" beforeDir="false" afterPath="$PROJECT_DIR$/capa_datos_persona/Persona.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capas_datos_persona/persona_dao.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/diagrama.uxf" beforeDir="false" afterPath="$PROJECT_DIR$/diagrama.uxf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capa_datos_persona/capa_datos.log" beforeDir="false" afterPath="$PROJECT_DIR$/capa_datos_persona/capa_datos.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capa_datos_persona/conexion.py" beforeDir="false" afterPath="$PROJECT_DIR$/capa_datos_persona/conexion.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,21 +32,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.Persona.executor": "Run",
-    "Python.conection.executor": "Run",
-    "Python.conexion.executor": "Run",
-    "Python.logger_base.executor": "Run",
-    "Python.persona_dao.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.Persona.executor&quot;: &quot;Run&quot;,
+    &quot;Python.conection.executor&quot;: &quot;Run&quot;,
+    &quot;Python.conexion.executor&quot;: &quot;Run&quot;,
+    &quot;Python.logger_base.executor&quot;: &quot;Run&quot;,
+    &quot;Python.persona_dao.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Python.persona_dao">
+}</component>
+  <component name="RunManager" selected="Python.conexion">
     <configuration name="Persona" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Clase7" />
       <option name="ENV_FILES" value="" />
@@ -165,8 +159,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.persona_dao" />
         <item itemvalue="Python.conexion" />
+        <item itemvalue="Python.persona_dao" />
         <item itemvalue="Python.Persona" />
         <item itemvalue="Python.logger_base" />
         <item itemvalue="Python.conection" />
